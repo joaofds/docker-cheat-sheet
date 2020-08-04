@@ -52,6 +52,10 @@ Quick and easy install script provided by Docker:
 curl -sSL https://get.docker.com/ | sh
 ```
 
+```
+sudo chown $USER /var/run/docker.sock
+```
+
 If you're not willing to run a random shell script, please see the [installation](https://docs.docker.com/engine/installation/linux/) instructions for your distribution.
 
 If you are a complete Docker newbie, you should follow the [series of tutorials](https://docs.docker.com/engine/getstarted/) now.
